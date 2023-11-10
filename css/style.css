@@ -1,0 +1,90 @@
+:root{
+--davys-gray: #4d5057ff;
+--licorice: #140101ff;
+--white: #fefffeff;
+--persian-pink: #f57ac8ff;
+
+    --font1: 'Playpen Sans'
+}
+
+*{box-sizing: border-box}
+    body {
+        background-image: url(/images/Janae\ Brionna\ \(1\).png);
+        background-clip: border-box;
+        background-position: center;
+        background-origin: padding-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .headshoot {
+        border-radius: 80%;
+        padding-left: 19px;
+        }
+
+@media(min-width:768px) {
+    section{
+        width: 100%;
+        /* height: 100vh; */
+    }
+}
+
+#projectsection {
+    margin-top: 60px;
+}
+
+.about-heading,.project-heading,.contact-heading {
+    font-family: var(--font2);
+    text-transform: uppercase;
+    color: var(--persian-pink);
+    text-shadow: 1px 1px 1px #000;
+}
+
+.nav-bar-heading {
+    color: #736a6a;
+    font-family: var(--font1);
+    font-size: xx-large; 
+}
+
+.about-text {
+    color: var(--davys-gray);
+    font-family: var(--font1);
+    margin-top: 10px;
+    padding-right: 48px;
+    font-size: calc(16px + (25 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.card-link {
+    color: #dd6eca;
+}
+
+.bi-envelope, .bi-github, .bi-linkedin {
+    box-shadow: 3px 7px 7px 3px #d79191;
+    /* margin: 50px 10px; */
+}
+
+.music-image {
+    margin-bottom: 154px;
+}
+
+Floating Back-To-Top Button 
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(68, 62, 62);
+    padding: .5px;
+    border-radius: 4px;
+}
